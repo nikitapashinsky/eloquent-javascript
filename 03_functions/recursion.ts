@@ -1,4 +1,6 @@
 /*
+  https://eloquentjavascript.net/03_functions.html#i-jxl1p970Fy
+
   We’ve seen that we can use % (the remainder operator) to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:
 
   - Zero is even.
@@ -10,7 +12,7 @@
   Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?
 */
 
-function isEven(n) {
+function isEven(n: number) {
   // If n is positive, check if it's a 0 or 1, else call isEven with 2 subtracted from n
   if (n >= 0) {
     if (n === 0) {
